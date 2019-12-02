@@ -4517,6 +4517,9 @@ public class Main extends javax.swing.JFrame {
     File dir = new File(voicePackPath + File.separator + voicePackNameField.getText());
     if (dir.exists() && dir.isDirectory()) {
       for (String file : dir.list()) {
+        if (file.indexOf('.') < 0) {
+          continue;
+        }
         String voiceName = file.substring(0, file.indexOf('.'));
         String keyForVoice = fileNamesToKey.get(voiceName);
         if (soundsByKey.get(keyForVoice) != null) {
