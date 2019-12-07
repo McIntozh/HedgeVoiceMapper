@@ -6,13 +6,14 @@
       <ResourceString bundle="de/schwarzdennis/hvm/bundles/other.properties" key="window_chooseSound_title" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
     </Property>
     <Property name="alwaysOnTop" type="boolean" value="true"/>
-    <Property name="name" type="java.lang.String" value="soundFileChooser"/>
+    <Property name="name" type="java.lang.String" value="soundFileChooser" noResource="true"/>
   </Properties>
   <AccessibilityProperties>
     <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
   </AccessibilityProperties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>

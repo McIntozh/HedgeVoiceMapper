@@ -1,16 +1,50 @@
 package de.schwarzdennis.hvm.layout;
 
 import de.schwarzdennis.hvm.logic.OggFileFilter;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
 import java.io.File;
 import javax.swing.JFileChooser;
+import static javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE;
 
 public class SoundFileSelect extends javax.swing.JFrame {
 
-    public SoundFileSelect() {
-        initComponents();
-    }
+  public SoundFileSelect() {
+    initComponents();
+    super.setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
+    super.addWindowListener(new WindowListener() {
+      @Override
+      public void windowOpened(WindowEvent e) {
+      }
 
-    @SuppressWarnings("unchecked")
+      @Override
+      public void windowClosing(WindowEvent e) {
+        Main.chooser.soundFileChosen(null);
+      }
+
+      @Override
+      public void windowClosed(WindowEvent e) {
+      }
+
+      @Override
+      public void windowIconified(WindowEvent e) {
+      }
+
+      @Override
+      public void windowDeiconified(WindowEvent e) {
+      }
+
+      @Override
+      public void windowActivated(WindowEvent e) {
+      }
+
+      @Override
+      public void windowDeactivated(WindowEvent e) {
+      }
+    });
+  }
+
+  @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
@@ -53,11 +87,11 @@ public class SoundFileSelect extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void okClick(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_okClick
-        File chosenFile = null;
-        if (JFileChooser.APPROVE_SELECTION.equals(evt.getActionCommand())) {
-            chosenFile = jFileChooser1.getSelectedFile().getAbsoluteFile();
-        }
-        Main.chooser.soundFileChosen(chosenFile);
+      File chosenFile = null;
+      if (JFileChooser.APPROVE_SELECTION.equals(evt.getActionCommand())) {
+        chosenFile = jFileChooser1.getSelectedFile().getAbsoluteFile();
+      }
+      Main.chooser.soundFileChosen(chosenFile);
     }//GEN-LAST:event_okClick
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JFileChooser jFileChooser1;

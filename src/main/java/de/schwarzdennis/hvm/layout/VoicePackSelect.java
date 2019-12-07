@@ -1,18 +1,51 @@
 package de.schwarzdennis.hvm.layout;
 
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
 import java.io.File;
 import javax.swing.JFileChooser;
 
 public class VoicePackSelect extends javax.swing.JFrame {
 
-    private File path;
+  private File path;
 
-    public VoicePackSelect(File path) {
-        this.path = path;
-        initComponents();
-    }
+  public VoicePackSelect(File path) {
+    this.path = path;
+    initComponents();
+    super.setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
+    super.addWindowListener(new WindowListener() {
+      @Override
+      public void windowOpened(WindowEvent e) {
+      }
 
-    @SuppressWarnings("unchecked")
+      @Override
+      public void windowClosing(WindowEvent e) {
+        Main.chooser.voicePackChosen(null);
+      }
+
+      @Override
+      public void windowClosed(WindowEvent e) {
+      }
+
+      @Override
+      public void windowIconified(WindowEvent e) {
+      }
+
+      @Override
+      public void windowDeiconified(WindowEvent e) {
+      }
+
+      @Override
+      public void windowActivated(WindowEvent e) {
+      }
+
+      @Override
+      public void windowDeactivated(WindowEvent e) {
+      }
+    });
+  }
+
+  @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
@@ -54,16 +87,16 @@ public class VoicePackSelect extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    public File getPath() {
-        return path;
-    }
+  public File getPath() {
+    return path;
+  }
 
     private void okClick(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_okClick
-        File chosenFile = null;
-        if (JFileChooser.APPROVE_SELECTION.equals(evt.getActionCommand())) {
-            chosenFile = jFileChooser1.getSelectedFile().getAbsoluteFile();
-        }
-        Main.chooser.voicePackChosen(chosenFile);
+      File chosenFile = null;
+      if (JFileChooser.APPROVE_SELECTION.equals(evt.getActionCommand())) {
+        chosenFile = jFileChooser1.getSelectedFile().getAbsoluteFile();
+      }
+      Main.chooser.voicePackChosen(chosenFile);
     }//GEN-LAST:event_okClick
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JFileChooser jFileChooser1;
