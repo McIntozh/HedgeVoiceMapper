@@ -1940,7 +1940,7 @@ public class Main extends javax.swing.JFrame {
     playBtn93.setMargin(new java.awt.Insets(0, 0, 0, 0));
     playBtn93.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
-        playBtn93playSound(evt);
+        playSound(evt);
       }
     });
 
@@ -1948,7 +1948,7 @@ public class Main extends javax.swing.JFrame {
     chooseBtn93.setActionCommand("amazing");
     chooseBtn93.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
-        chooseBtn93chooseButtonAction(evt);
+        chooseButtonAction(evt);
       }
     });
 
@@ -3100,7 +3100,7 @@ public class Main extends javax.swing.JFrame {
     playBtn92.setMargin(new java.awt.Insets(0, 0, 0, 0));
     playBtn92.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
-        playBtn92playSound(evt);
+        playSound(evt);
       }
     });
 
@@ -3108,7 +3108,7 @@ public class Main extends javax.swing.JFrame {
     chooseBtn92.setActionCommand("amazing");
     chooseBtn92.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
-        chooseBtn92chooseButtonAction(evt);
+        chooseButtonAction(evt);
       }
     });
 
@@ -4415,7 +4415,7 @@ public class Main extends javax.swing.JFrame {
     playBtn91.setMargin(new java.awt.Insets(0, 0, 0, 0));
     playBtn91.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
-        playBtn91playSound(evt);
+        playSound(evt);
       }
     });
 
@@ -4423,7 +4423,7 @@ public class Main extends javax.swing.JFrame {
     chooseBtn91.setActionCommand("amazing");
     chooseBtn91.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
-        chooseBtn91chooseButtonAction(evt);
+        chooseButtonAction(evt);
       }
     });
 
@@ -4467,7 +4467,7 @@ public class Main extends javax.swing.JFrame {
     playBtn94.setMargin(new java.awt.Insets(0, 0, 0, 0));
     playBtn94.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
-        playBtn94playSound(evt);
+        playSound(evt);
       }
     });
 
@@ -4475,7 +4475,7 @@ public class Main extends javax.swing.JFrame {
     chooseBtn94.setActionCommand("amazing");
     chooseBtn94.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
-        chooseBtn94chooseButtonAction(evt);
+        chooseButtonAction(evt);
       }
     });
 
@@ -4519,7 +4519,7 @@ public class Main extends javax.swing.JFrame {
     playBtn95.setMargin(new java.awt.Insets(0, 0, 0, 0));
     playBtn95.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
-        playBtn95playSound(evt);
+        playSound(evt);
       }
     });
 
@@ -4527,7 +4527,7 @@ public class Main extends javax.swing.JFrame {
     chooseBtn95.setActionCommand("amazing");
     chooseBtn95.addActionListener(new java.awt.event.ActionListener() {
       public void actionPerformed(java.awt.event.ActionEvent evt) {
-        chooseBtn95chooseButtonAction(evt);
+        chooseButtonAction(evt);
       }
     });
 
@@ -4750,45 +4750,7 @@ public class Main extends javax.swing.JFrame {
       }
     }//GEN-LAST:event_playSound
 
-  private void playBtn92playSound(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_playBtn92playSound
-    // TODO add your handling code here:
-  }//GEN-LAST:event_playBtn92playSound
 
-  private void chooseBtn92chooseButtonAction(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chooseBtn92chooseButtonAction
-    // TODO add your handling code here:
-  }//GEN-LAST:event_chooseBtn92chooseButtonAction
-
-  private void playBtn93playSound(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_playBtn93playSound
-    // TODO add your handling code here:
-  }//GEN-LAST:event_playBtn93playSound
-
-  private void chooseBtn93chooseButtonAction(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chooseBtn93chooseButtonAction
-    // TODO add your handling code here:
-  }//GEN-LAST:event_chooseBtn93chooseButtonAction
-
-  private void playBtn91playSound(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_playBtn91playSound
-    // TODO add your handling code here:
-  }//GEN-LAST:event_playBtn91playSound
-
-  private void chooseBtn91chooseButtonAction(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chooseBtn91chooseButtonAction
-    // TODO add your handling code here:
-  }//GEN-LAST:event_chooseBtn91chooseButtonAction
-
-  private void playBtn94playSound(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_playBtn94playSound
-    // TODO add your handling code here:
-  }//GEN-LAST:event_playBtn94playSound
-
-  private void chooseBtn94chooseButtonAction(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chooseBtn94chooseButtonAction
-    // TODO add your handling code here:
-  }//GEN-LAST:event_chooseBtn94chooseButtonAction
-
-  private void playBtn95playSound(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_playBtn95playSound
-    // TODO add your handling code here:
-  }//GEN-LAST:event_playBtn95playSound
-
-  private void chooseBtn95chooseButtonAction(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chooseBtn95chooseButtonAction
-    // TODO add your handling code here:
-  }//GEN-LAST:event_chooseBtn95chooseButtonAction
 
   public static void main(String args[]) {
     java.awt.EventQueue.invokeLater(new Runnable() {
