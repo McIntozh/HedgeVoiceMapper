@@ -175,12 +175,6 @@ public class Main extends javax.swing.JFrame {
     javax.swing.JTextField textField63 = new javax.swing.JTextField();
     javax.swing.JLabel soundKey63 = new javax.swing.JLabel();
     javax.swing.JLabel jLabel48 = new javax.swing.JLabel();
-    javax.swing.JPanel jPanel64 = new javax.swing.JPanel();
-    javax.swing.JButton playBtn67 = new javax.swing.JButton();
-    javax.swing.JButton chooseBtn67 = new javax.swing.JButton();
-    javax.swing.JTextField textField67 = new javax.swing.JTextField();
-    javax.swing.JLabel soundKey67 = new javax.swing.JLabel();
-    javax.swing.JLabel jLabel52 = new javax.swing.JLabel();
     javax.swing.JPanel jPanel69 = new javax.swing.JPanel();
     javax.swing.JButton playBtn72 = new javax.swing.JButton();
     javax.swing.JButton chooseBtn72 = new javax.swing.JButton();
@@ -241,6 +235,12 @@ public class Main extends javax.swing.JFrame {
     javax.swing.JTextField textField84 = new javax.swing.JTextField();
     javax.swing.JLabel soundKey84 = new javax.swing.JLabel();
     javax.swing.JLabel jLabel69 = new javax.swing.JLabel();
+    javax.swing.JPanel jPanel90 = new javax.swing.JPanel();
+    javax.swing.JButton playBtn93 = new javax.swing.JButton();
+    javax.swing.JButton chooseBtn93 = new javax.swing.JButton();
+    javax.swing.JTextField textField93 = new javax.swing.JTextField();
+    javax.swing.JLabel soundKey93 = new javax.swing.JLabel();
+    javax.swing.JLabel jLabel78 = new javax.swing.JLabel();
     javax.swing.JPanel jPanel5 = new javax.swing.JPanel();
     javax.swing.JPanel jPanel39 = new javax.swing.JPanel();
     javax.swing.JButton playBtn42 = new javax.swing.JButton();
@@ -273,12 +273,6 @@ public class Main extends javax.swing.JFrame {
     javax.swing.JTextField textField62 = new javax.swing.JTextField();
     javax.swing.JLabel soundKey62 = new javax.swing.JLabel();
     javax.swing.JLabel jLabel47 = new javax.swing.JLabel();
-    javax.swing.JPanel jPanel63 = new javax.swing.JPanel();
-    javax.swing.JButton playBtn66 = new javax.swing.JButton();
-    javax.swing.JButton chooseBtn66 = new javax.swing.JButton();
-    javax.swing.JTextField textField66 = new javax.swing.JTextField();
-    javax.swing.JLabel soundKey66 = new javax.swing.JLabel();
-    javax.swing.JLabel jLabel51 = new javax.swing.JLabel();
     javax.swing.JPanel jPanel65 = new javax.swing.JPanel();
     javax.swing.JButton playBtn68 = new javax.swing.JButton();
     javax.swing.JButton chooseBtn68 = new javax.swing.JButton();
@@ -291,12 +285,6 @@ public class Main extends javax.swing.JFrame {
     javax.swing.JTextField textField75 = new javax.swing.JTextField();
     javax.swing.JLabel soundKey75 = new javax.swing.JLabel();
     javax.swing.JLabel jLabel60 = new javax.swing.JLabel();
-    javax.swing.JPanel jPanel88 = new javax.swing.JPanel();
-    javax.swing.JButton playBtn91 = new javax.swing.JButton();
-    javax.swing.JButton chooseBtn91 = new javax.swing.JButton();
-    javax.swing.JTextField textField91 = new javax.swing.JTextField();
-    javax.swing.JLabel soundKey91 = new javax.swing.JLabel();
-    javax.swing.JLabel jLabel76 = new javax.swing.JLabel();
     javax.swing.JPanel jPanel8 = new javax.swing.JPanel();
     javax.swing.JPanel jPanel14 = new javax.swing.JPanel();
     javax.swing.JButton playBtn17 = new javax.swing.JButton();
@@ -370,6 +358,12 @@ public class Main extends javax.swing.JFrame {
     javax.swing.JTextField textField88 = new javax.swing.JTextField();
     javax.swing.JLabel soundKey88 = new javax.swing.JLabel();
     javax.swing.JLabel jLabel73 = new javax.swing.JLabel();
+    javax.swing.JPanel jPanel89 = new javax.swing.JPanel();
+    javax.swing.JButton playBtn92 = new javax.swing.JButton();
+    javax.swing.JButton chooseBtn92 = new javax.swing.JButton();
+    javax.swing.JTextField textField92 = new javax.swing.JTextField();
+    javax.swing.JLabel soundKey92 = new javax.swing.JLabel();
+    javax.swing.JLabel jLabel77 = new javax.swing.JLabel();
     javax.swing.JPanel jPanel9 = new javax.swing.JPanel();
     javax.swing.JPanel jPanel40 = new javax.swing.JPanel();
     javax.swing.JButton playBtn43 = new javax.swing.JButton();
@@ -504,6 +498,24 @@ public class Main extends javax.swing.JFrame {
     javax.swing.JTextField textField90 = new javax.swing.JTextField();
     javax.swing.JLabel soundKey90 = new javax.swing.JLabel();
     javax.swing.JLabel jLabel75 = new javax.swing.JLabel();
+    javax.swing.JPanel jPanel88 = new javax.swing.JPanel();
+    javax.swing.JButton playBtn91 = new javax.swing.JButton();
+    javax.swing.JButton chooseBtn91 = new javax.swing.JButton();
+    javax.swing.JTextField textField91 = new javax.swing.JTextField();
+    javax.swing.JLabel soundKey91 = new javax.swing.JLabel();
+    javax.swing.JLabel jLabel76 = new javax.swing.JLabel();
+    javax.swing.JPanel jPanel91 = new javax.swing.JPanel();
+    javax.swing.JButton playBtn94 = new javax.swing.JButton();
+    javax.swing.JButton chooseBtn94 = new javax.swing.JButton();
+    javax.swing.JTextField textField94 = new javax.swing.JTextField();
+    javax.swing.JLabel soundKey94 = new javax.swing.JLabel();
+    javax.swing.JLabel jLabel79 = new javax.swing.JLabel();
+    javax.swing.JPanel jPanel92 = new javax.swing.JPanel();
+    javax.swing.JButton playBtn95 = new javax.swing.JButton();
+    javax.swing.JButton chooseBtn95 = new javax.swing.JButton();
+    javax.swing.JTextField textField95 = new javax.swing.JTextField();
+    javax.swing.JLabel soundKey95 = new javax.swing.JLabel();
+    javax.swing.JLabel jLabel80 = new javax.swing.JLabel();
     voicePackPathField = new javax.swing.JTextField();
     javax.swing.JLabel jLabel2 = new javax.swing.JLabel();
     javax.swing.JLabel jLabel3 = new javax.swing.JLabel();
@@ -1403,58 +1415,6 @@ public class Main extends javax.swing.JFrame {
       .addComponent(playBtn63, javax.swing.GroupLayout.Alignment.TRAILING)
     );
 
-    playBtn67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/de/schwarzdennis/hvm/resource/sound.png"))); // NOI18N
-    playBtn67.setActionCommand("amazing");
-    playBtn67.setMargin(new java.awt.Insets(0, 0, 0, 0));
-    playBtn67.addActionListener(new java.awt.event.ActionListener() {
-      public void actionPerformed(java.awt.event.ActionEvent evt) {
-        playSound(evt);
-      }
-    });
-
-    chooseBtn67.setText(bundle.getString("choose")); // NOI18N
-    chooseBtn67.setActionCommand("amazing");
-    chooseBtn67.addActionListener(new java.awt.event.ActionListener() {
-      public void actionPerformed(java.awt.event.ActionEvent evt) {
-        chooseButtonAction(evt);
-      }
-    });
-
-    textField67.setEditable(false);
-
-    soundKey67.setText("nutter");
-    soundKey67.setEnabled(false);
-    soundKey67.setMaximumSize(new java.awt.Dimension(0, 0));
-    soundKey67.setMinimumSize(new java.awt.Dimension(0, 0));
-
-    jLabel52.setText("Label");
-
-    javax.swing.GroupLayout jPanel64Layout = new javax.swing.GroupLayout(jPanel64);
-    jPanel64.setLayout(jPanel64Layout);
-    jPanel64Layout.setHorizontalGroup(
-      jPanel64Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel64Layout.createSequentialGroup()
-        .addContainerGap()
-        .addComponent(jLabel52, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(textField67, javax.swing.GroupLayout.DEFAULT_SIZE, 568, Short.MAX_VALUE)
-        .addGap(3, 3, 3)
-        .addComponent(playBtn67)
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(chooseBtn67)
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(soundKey67, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
-    );
-    jPanel64Layout.setVerticalGroup(
-      jPanel64Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel64Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-        .addComponent(textField67, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addComponent(chooseBtn67)
-        .addComponent(soundKey67, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addComponent(jLabel52))
-      .addComponent(playBtn67, javax.swing.GroupLayout.Alignment.TRAILING)
-    );
-
     playBtn72.setIcon(new javax.swing.ImageIcon(getClass().getResource("/de/schwarzdennis/hvm/resource/sound.png"))); // NOI18N
     playBtn72.setActionCommand("amazing");
     playBtn72.setMargin(new java.awt.Insets(0, 0, 0, 0));
@@ -1734,7 +1694,7 @@ public class Main extends javax.swing.JFrame {
 
     textField78.setEditable(false);
 
-    soundKey78.setText("takecover");
+    soundKey78.setText("nutter");
     soundKey78.setEnabled(false);
     soundKey78.setMaximumSize(new java.awt.Dimension(0, 0));
     soundKey78.setMinimumSize(new java.awt.Dimension(0, 0));
@@ -1975,6 +1935,58 @@ public class Main extends javax.swing.JFrame {
       .addComponent(playBtn84, javax.swing.GroupLayout.Alignment.TRAILING)
     );
 
+    playBtn93.setIcon(new javax.swing.ImageIcon(getClass().getResource("/de/schwarzdennis/hvm/resource/sound.png"))); // NOI18N
+    playBtn93.setActionCommand("amazing");
+    playBtn93.setMargin(new java.awt.Insets(0, 0, 0, 0));
+    playBtn93.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        playBtn93playSound(evt);
+      }
+    });
+
+    chooseBtn93.setText(bundle.getString("choose")); // NOI18N
+    chooseBtn93.setActionCommand("amazing");
+    chooseBtn93.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        chooseBtn93chooseButtonAction(evt);
+      }
+    });
+
+    textField93.setEditable(false);
+
+    soundKey93.setText("nooo");
+    soundKey93.setEnabled(false);
+    soundKey93.setMaximumSize(new java.awt.Dimension(0, 0));
+    soundKey93.setMinimumSize(new java.awt.Dimension(0, 0));
+
+    jLabel78.setText("Label");
+
+    javax.swing.GroupLayout jPanel90Layout = new javax.swing.GroupLayout(jPanel90);
+    jPanel90.setLayout(jPanel90Layout);
+    jPanel90Layout.setHorizontalGroup(
+      jPanel90Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel90Layout.createSequentialGroup()
+        .addContainerGap()
+        .addComponent(jLabel78, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(textField93)
+        .addGap(3, 3, 3)
+        .addComponent(playBtn93)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(chooseBtn93)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(soundKey93, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
+    );
+    jPanel90Layout.setVerticalGroup(
+      jPanel90Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel90Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+        .addComponent(textField93, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addComponent(chooseBtn93)
+        .addComponent(soundKey93, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addComponent(jLabel78))
+      .addComponent(playBtn93, javax.swing.GroupLayout.Alignment.TRAILING)
+    );
+
     javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
     jPanel4.setLayout(jPanel4Layout);
     jPanel4Layout.setHorizontalGroup(
@@ -1987,7 +1999,6 @@ public class Main extends javax.swing.JFrame {
       .addComponent(jPanel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel53, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel60, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-      .addComponent(jPanel64, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel69, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel70, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel71, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -1998,6 +2009,7 @@ public class Main extends javax.swing.JFrame {
       .addComponent(jPanel78, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel80, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel81, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+      .addComponent(jPanel90, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
     );
     jPanel4Layout.setVerticalGroup(
       jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2039,7 +2051,7 @@ public class Main extends javax.swing.JFrame {
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
         .addComponent(jPanel53, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(jPanel64, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addComponent(jPanel90, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         .addContainerGap(227, Short.MAX_VALUE))
     );
 
@@ -2297,7 +2309,7 @@ public class Main extends javax.swing.JFrame {
 
     textField62.setEditable(false);
 
-    soundKey62.setText("laugh");
+    soundKey62.setText("flyaway");
     soundKey62.setEnabled(false);
     soundKey62.setMaximumSize(new java.awt.Dimension(0, 0));
     soundKey62.setMinimumSize(new java.awt.Dimension(0, 0));
@@ -2328,58 +2340,6 @@ public class Main extends javax.swing.JFrame {
         .addComponent(soundKey62, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         .addComponent(jLabel47))
       .addComponent(playBtn62, javax.swing.GroupLayout.Alignment.TRAILING)
-    );
-
-    playBtn66.setIcon(new javax.swing.ImageIcon(getClass().getResource("/de/schwarzdennis/hvm/resource/sound.png"))); // NOI18N
-    playBtn66.setActionCommand("amazing");
-    playBtn66.setMargin(new java.awt.Insets(0, 0, 0, 0));
-    playBtn66.addActionListener(new java.awt.event.ActionListener() {
-      public void actionPerformed(java.awt.event.ActionEvent evt) {
-        playSound(evt);
-      }
-    });
-
-    chooseBtn66.setText(bundle.getString("choose")); // NOI18N
-    chooseBtn66.setActionCommand("amazing");
-    chooseBtn66.addActionListener(new java.awt.event.ActionListener() {
-      public void actionPerformed(java.awt.event.ActionEvent evt) {
-        chooseButtonAction(evt);
-      }
-    });
-
-    textField66.setEditable(false);
-
-    soundKey66.setText("nooo");
-    soundKey66.setEnabled(false);
-    soundKey66.setMaximumSize(new java.awt.Dimension(0, 0));
-    soundKey66.setMinimumSize(new java.awt.Dimension(0, 0));
-
-    jLabel51.setText("Label");
-
-    javax.swing.GroupLayout jPanel63Layout = new javax.swing.GroupLayout(jPanel63);
-    jPanel63.setLayout(jPanel63Layout);
-    jPanel63Layout.setHorizontalGroup(
-      jPanel63Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel63Layout.createSequentialGroup()
-        .addContainerGap()
-        .addComponent(jLabel51, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(textField66, javax.swing.GroupLayout.DEFAULT_SIZE, 568, Short.MAX_VALUE)
-        .addGap(3, 3, 3)
-        .addComponent(playBtn66)
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(chooseBtn66)
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(soundKey66, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
-    );
-    jPanel63Layout.setVerticalGroup(
-      jPanel63Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel63Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-        .addComponent(textField66, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addComponent(chooseBtn66)
-        .addComponent(soundKey66, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addComponent(jLabel51))
-      .addComponent(playBtn66, javax.swing.GroupLayout.Alignment.TRAILING)
     );
 
     playBtn68.setIcon(new javax.swing.ImageIcon(getClass().getResource("/de/schwarzdennis/hvm/resource/sound.png"))); // NOI18N
@@ -2486,68 +2446,14 @@ public class Main extends javax.swing.JFrame {
       .addComponent(playBtn75, javax.swing.GroupLayout.Alignment.TRAILING)
     );
 
-    playBtn91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/de/schwarzdennis/hvm/resource/sound.png"))); // NOI18N
-    playBtn91.setActionCommand("amazing");
-    playBtn91.setMargin(new java.awt.Insets(0, 0, 0, 0));
-    playBtn91.addActionListener(new java.awt.event.ActionListener() {
-      public void actionPerformed(java.awt.event.ActionEvent evt) {
-        playBtn91playSound(evt);
-      }
-    });
-
-    chooseBtn91.setText(bundle.getString("choose")); // NOI18N
-    chooseBtn91.setActionCommand("amazing");
-    chooseBtn91.addActionListener(new java.awt.event.ActionListener() {
-      public void actionPerformed(java.awt.event.ActionEvent evt) {
-        chooseBtn91chooseButtonAction(evt);
-      }
-    });
-
-    textField91.setEditable(false);
-
-    soundKey91.setText("flyaway");
-    soundKey91.setEnabled(false);
-    soundKey91.setMaximumSize(new java.awt.Dimension(0, 0));
-    soundKey91.setMinimumSize(new java.awt.Dimension(0, 0));
-
-    jLabel76.setText("Label");
-
-    javax.swing.GroupLayout jPanel88Layout = new javax.swing.GroupLayout(jPanel88);
-    jPanel88.setLayout(jPanel88Layout);
-    jPanel88Layout.setHorizontalGroup(
-      jPanel88Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel88Layout.createSequentialGroup()
-        .addContainerGap()
-        .addComponent(jLabel76, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(textField91)
-        .addGap(3, 3, 3)
-        .addComponent(playBtn91)
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(chooseBtn91)
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(soundKey91, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
-    );
-    jPanel88Layout.setVerticalGroup(
-      jPanel88Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel88Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-        .addComponent(textField91, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addComponent(chooseBtn91)
-        .addComponent(soundKey91, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addComponent(jLabel76))
-      .addComponent(playBtn91, javax.swing.GroupLayout.Alignment.TRAILING)
-    );
-
     javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
     jPanel6.setLayout(jPanel6Layout);
     jPanel6Layout.setHorizontalGroup(
       jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
       .addComponent(jPanel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel59, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-      .addComponent(jPanel63, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel65, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel72, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-      .addComponent(jPanel88, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
     );
     jPanel6Layout.setVerticalGroup(
       jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2560,11 +2466,7 @@ public class Main extends javax.swing.JFrame {
         .addComponent(jPanel72, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
         .addComponent(jPanel59, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(jPanel63, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-        .addComponent(jPanel88, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addContainerGap(630, Short.MAX_VALUE))
+        .addContainerGap(692, Short.MAX_VALUE))
     );
 
     tabbedPane.addTab(bundle.getString("tab_bye"), jPanel6); // NOI18N
@@ -2588,7 +2490,7 @@ public class Main extends javax.swing.JFrame {
 
     textField17.setEditable(false);
 
-    soundKey17.setText("bungee");
+    soundKey17.setText("laugh");
     soundKey17.setEnabled(false);
     soundKey17.setMaximumSize(new java.awt.Dimension(0, 0));
     soundKey17.setMinimumSize(new java.awt.Dimension(0, 0));
@@ -3193,6 +3095,58 @@ public class Main extends javax.swing.JFrame {
       .addComponent(playBtn88, javax.swing.GroupLayout.Alignment.TRAILING)
     );
 
+    playBtn92.setIcon(new javax.swing.ImageIcon(getClass().getResource("/de/schwarzdennis/hvm/resource/sound.png"))); // NOI18N
+    playBtn92.setActionCommand("amazing");
+    playBtn92.setMargin(new java.awt.Insets(0, 0, 0, 0));
+    playBtn92.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        playBtn92playSound(evt);
+      }
+    });
+
+    chooseBtn92.setText(bundle.getString("choose")); // NOI18N
+    chooseBtn92.setActionCommand("amazing");
+    chooseBtn92.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        chooseBtn92chooseButtonAction(evt);
+      }
+    });
+
+    textField92.setEditable(false);
+
+    soundKey92.setText("takecover");
+    soundKey92.setEnabled(false);
+    soundKey92.setMaximumSize(new java.awt.Dimension(0, 0));
+    soundKey92.setMinimumSize(new java.awt.Dimension(0, 0));
+
+    jLabel77.setText("Label");
+
+    javax.swing.GroupLayout jPanel89Layout = new javax.swing.GroupLayout(jPanel89);
+    jPanel89.setLayout(jPanel89Layout);
+    jPanel89Layout.setHorizontalGroup(
+      jPanel89Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel89Layout.createSequentialGroup()
+        .addContainerGap()
+        .addComponent(jLabel77, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(textField92)
+        .addGap(3, 3, 3)
+        .addComponent(playBtn92)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(chooseBtn92)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(soundKey92, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
+    );
+    jPanel89Layout.setVerticalGroup(
+      jPanel89Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel89Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+        .addComponent(textField92, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addComponent(chooseBtn92)
+        .addComponent(soundKey92, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addComponent(jLabel77))
+      .addComponent(playBtn92, javax.swing.GroupLayout.Alignment.TRAILING)
+    );
+
     javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
     jPanel8.setLayout(jPanel8Layout);
     jPanel8Layout.setHorizontalGroup(
@@ -3209,6 +3163,7 @@ public class Main extends javax.swing.JFrame {
       .addComponent(jPanel61, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel85, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+      .addComponent(jPanel89, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
     );
     jPanel8Layout.setVerticalGroup(
       jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3237,7 +3192,9 @@ public class Main extends javax.swing.JFrame {
         .addComponent(jPanel61, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
         .addComponent(jPanel85, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addContainerGap(444, Short.MAX_VALUE))
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(jPanel89, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addContainerGap(413, Short.MAX_VALUE))
     );
 
     tabbedPane.addTab(bundle.getString("tab_attack"), jPanel8); // NOI18N
@@ -4431,7 +4388,7 @@ public class Main extends javax.swing.JFrame {
     jPanel87.setLayout(jPanel87Layout);
     jPanel87Layout.setHorizontalGroup(
       jPanel87Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel87Layout.createSequentialGroup()
+      .addGroup(jPanel87Layout.createSequentialGroup()
         .addContainerGap()
         .addComponent(jLabel75, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -4453,6 +4410,162 @@ public class Main extends javax.swing.JFrame {
       .addComponent(playBtn90, javax.swing.GroupLayout.Alignment.TRAILING)
     );
 
+    playBtn91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/de/schwarzdennis/hvm/resource/sound.png"))); // NOI18N
+    playBtn91.setActionCommand("amazing");
+    playBtn91.setMargin(new java.awt.Insets(0, 0, 0, 0));
+    playBtn91.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        playBtn91playSound(evt);
+      }
+    });
+
+    chooseBtn91.setText(bundle.getString("choose")); // NOI18N
+    chooseBtn91.setActionCommand("amazing");
+    chooseBtn91.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        chooseBtn91chooseButtonAction(evt);
+      }
+    });
+
+    textField91.setEditable(false);
+
+    soundKey91.setText("bungee");
+    soundKey91.setEnabled(false);
+    soundKey91.setMaximumSize(new java.awt.Dimension(0, 0));
+    soundKey91.setMinimumSize(new java.awt.Dimension(0, 0));
+
+    jLabel76.setText("Label");
+
+    javax.swing.GroupLayout jPanel88Layout = new javax.swing.GroupLayout(jPanel88);
+    jPanel88.setLayout(jPanel88Layout);
+    jPanel88Layout.setHorizontalGroup(
+      jPanel88Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGroup(jPanel88Layout.createSequentialGroup()
+        .addContainerGap()
+        .addComponent(jLabel76, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(textField91)
+        .addGap(3, 3, 3)
+        .addComponent(playBtn91)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(chooseBtn91)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(soundKey91, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
+    );
+    jPanel88Layout.setVerticalGroup(
+      jPanel88Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel88Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+        .addComponent(textField91, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addComponent(chooseBtn91)
+        .addComponent(soundKey91, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addComponent(jLabel76))
+      .addComponent(playBtn91, javax.swing.GroupLayout.Alignment.TRAILING)
+    );
+
+    playBtn94.setIcon(new javax.swing.ImageIcon(getClass().getResource("/de/schwarzdennis/hvm/resource/sound.png"))); // NOI18N
+    playBtn94.setActionCommand("amazing");
+    playBtn94.setMargin(new java.awt.Insets(0, 0, 0, 0));
+    playBtn94.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        playBtn94playSound(evt);
+      }
+    });
+
+    chooseBtn94.setText(bundle.getString("choose")); // NOI18N
+    chooseBtn94.setActionCommand("amazing");
+    chooseBtn94.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        chooseBtn94chooseButtonAction(evt);
+      }
+    });
+
+    textField94.setEditable(false);
+
+    soundKey94.setText("flawlesspossibility");
+    soundKey94.setEnabled(false);
+    soundKey94.setMaximumSize(new java.awt.Dimension(0, 0));
+    soundKey94.setMinimumSize(new java.awt.Dimension(0, 0));
+
+    jLabel79.setText("Label");
+
+    javax.swing.GroupLayout jPanel91Layout = new javax.swing.GroupLayout(jPanel91);
+    jPanel91.setLayout(jPanel91Layout);
+    jPanel91Layout.setHorizontalGroup(
+      jPanel91Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGroup(jPanel91Layout.createSequentialGroup()
+        .addContainerGap()
+        .addComponent(jLabel79, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(textField94)
+        .addGap(3, 3, 3)
+        .addComponent(playBtn94)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(chooseBtn94)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(soundKey94, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
+    );
+    jPanel91Layout.setVerticalGroup(
+      jPanel91Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel91Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+        .addComponent(textField94, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addComponent(chooseBtn94)
+        .addComponent(soundKey94, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addComponent(jLabel79))
+      .addComponent(playBtn94, javax.swing.GroupLayout.Alignment.TRAILING)
+    );
+
+    playBtn95.setIcon(new javax.swing.ImageIcon(getClass().getResource("/de/schwarzdennis/hvm/resource/sound.png"))); // NOI18N
+    playBtn95.setActionCommand("amazing");
+    playBtn95.setMargin(new java.awt.Insets(0, 0, 0, 0));
+    playBtn95.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        playBtn95playSound(evt);
+      }
+    });
+
+    chooseBtn95.setText(bundle.getString("choose")); // NOI18N
+    chooseBtn95.setActionCommand("amazing");
+    chooseBtn95.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        chooseBtn95chooseButtonAction(evt);
+      }
+    });
+
+    textField95.setEditable(false);
+
+    soundKey95.setText("victorypossibility");
+    soundKey95.setEnabled(false);
+    soundKey95.setMaximumSize(new java.awt.Dimension(0, 0));
+    soundKey95.setMinimumSize(new java.awt.Dimension(0, 0));
+
+    jLabel80.setText("Label");
+
+    javax.swing.GroupLayout jPanel92Layout = new javax.swing.GroupLayout(jPanel92);
+    jPanel92.setLayout(jPanel92Layout);
+    jPanel92Layout.setHorizontalGroup(
+      jPanel92Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGroup(jPanel92Layout.createSequentialGroup()
+        .addContainerGap()
+        .addComponent(jLabel80, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(textField95)
+        .addGap(3, 3, 3)
+        .addComponent(playBtn95)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(chooseBtn95)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(soundKey95, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
+    );
+    jPanel92Layout.setVerticalGroup(
+      jPanel92Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel92Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+        .addComponent(textField95, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addComponent(chooseBtn95)
+        .addComponent(soundKey95, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addComponent(jLabel80))
+      .addComponent(playBtn95, javax.swing.GroupLayout.Alignment.TRAILING)
+    );
+
     javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
     jPanel7.setLayout(jPanel7Layout);
     jPanel7Layout.setHorizontalGroup(
@@ -4461,6 +4574,9 @@ public class Main extends javax.swing.JFrame {
       .addComponent(jPanel68, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel86, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel87, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+      .addComponent(jPanel88, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+      .addComponent(jPanel91, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+      .addComponent(jPanel92, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
     );
     jPanel7Layout.setVerticalGroup(
       jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -4473,7 +4589,13 @@ public class Main extends javax.swing.JFrame {
         .addComponent(jPanel86, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
         .addComponent(jPanel87, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addContainerGap(692, Short.MAX_VALUE))
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(jPanel88, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(jPanel91, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(jPanel92, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addContainerGap(599, Short.MAX_VALUE))
     );
 
     tabbedPane.addTab(bundle.getString("tab_other"), jPanel7); // NOI18N
@@ -4628,6 +4750,22 @@ public class Main extends javax.swing.JFrame {
       }
     }//GEN-LAST:event_playSound
 
+  private void playBtn92playSound(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_playBtn92playSound
+    // TODO add your handling code here:
+  }//GEN-LAST:event_playBtn92playSound
+
+  private void chooseBtn92chooseButtonAction(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chooseBtn92chooseButtonAction
+    // TODO add your handling code here:
+  }//GEN-LAST:event_chooseBtn92chooseButtonAction
+
+  private void playBtn93playSound(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_playBtn93playSound
+    // TODO add your handling code here:
+  }//GEN-LAST:event_playBtn93playSound
+
+  private void chooseBtn93chooseButtonAction(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chooseBtn93chooseButtonAction
+    // TODO add your handling code here:
+  }//GEN-LAST:event_chooseBtn93chooseButtonAction
+
   private void playBtn91playSound(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_playBtn91playSound
     // TODO add your handling code here:
   }//GEN-LAST:event_playBtn91playSound
@@ -4635,6 +4773,22 @@ public class Main extends javax.swing.JFrame {
   private void chooseBtn91chooseButtonAction(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chooseBtn91chooseButtonAction
     // TODO add your handling code here:
   }//GEN-LAST:event_chooseBtn91chooseButtonAction
+
+  private void playBtn94playSound(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_playBtn94playSound
+    // TODO add your handling code here:
+  }//GEN-LAST:event_playBtn94playSound
+
+  private void chooseBtn94chooseButtonAction(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chooseBtn94chooseButtonAction
+    // TODO add your handling code here:
+  }//GEN-LAST:event_chooseBtn94chooseButtonAction
+
+  private void playBtn95playSound(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_playBtn95playSound
+    // TODO add your handling code here:
+  }//GEN-LAST:event_playBtn95playSound
+
+  private void chooseBtn95chooseButtonAction(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chooseBtn95chooseButtonAction
+    // TODO add your handling code here:
+  }//GEN-LAST:event_chooseBtn95chooseButtonAction
 
   public static void main(String args[]) {
     java.awt.EventQueue.invokeLater(new Runnable() {
