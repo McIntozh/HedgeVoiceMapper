@@ -291,6 +291,12 @@ public class Main extends javax.swing.JFrame {
     javax.swing.JTextField textField75 = new javax.swing.JTextField();
     javax.swing.JLabel soundKey75 = new javax.swing.JLabel();
     javax.swing.JLabel jLabel60 = new javax.swing.JLabel();
+    javax.swing.JPanel jPanel88 = new javax.swing.JPanel();
+    javax.swing.JButton playBtn91 = new javax.swing.JButton();
+    javax.swing.JButton chooseBtn91 = new javax.swing.JButton();
+    javax.swing.JTextField textField91 = new javax.swing.JTextField();
+    javax.swing.JLabel soundKey91 = new javax.swing.JLabel();
+    javax.swing.JLabel jLabel76 = new javax.swing.JLabel();
     javax.swing.JPanel jPanel8 = new javax.swing.JPanel();
     javax.swing.JPanel jPanel14 = new javax.swing.JPanel();
     javax.swing.JButton playBtn17 = new javax.swing.JButton();
@@ -521,7 +527,6 @@ public class Main extends javax.swing.JFrame {
     java.util.ResourceBundle bundle = java.util.ResourceBundle.getBundle("de/schwarzdennis/hvm/bundles/other"); // NOI18N
     setTitle(bundle.getString("window_main_title")); // NOI18N
     setMinimumSize(new java.awt.Dimension(600, 350));
-    setPreferredSize(new java.awt.Dimension(600, 780));
 
     playBtn36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/de/schwarzdennis/hvm/resource/sound.png"))); // NOI18N
     playBtn36.setActionCommand("amazing");
@@ -2481,6 +2486,58 @@ public class Main extends javax.swing.JFrame {
       .addComponent(playBtn75, javax.swing.GroupLayout.Alignment.TRAILING)
     );
 
+    playBtn91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/de/schwarzdennis/hvm/resource/sound.png"))); // NOI18N
+    playBtn91.setActionCommand("amazing");
+    playBtn91.setMargin(new java.awt.Insets(0, 0, 0, 0));
+    playBtn91.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        playBtn91playSound(evt);
+      }
+    });
+
+    chooseBtn91.setText(bundle.getString("choose")); // NOI18N
+    chooseBtn91.setActionCommand("amazing");
+    chooseBtn91.addActionListener(new java.awt.event.ActionListener() {
+      public void actionPerformed(java.awt.event.ActionEvent evt) {
+        chooseBtn91chooseButtonAction(evt);
+      }
+    });
+
+    textField91.setEditable(false);
+
+    soundKey91.setText("flyaway");
+    soundKey91.setEnabled(false);
+    soundKey91.setMaximumSize(new java.awt.Dimension(0, 0));
+    soundKey91.setMinimumSize(new java.awt.Dimension(0, 0));
+
+    jLabel76.setText("Label");
+
+    javax.swing.GroupLayout jPanel88Layout = new javax.swing.GroupLayout(jPanel88);
+    jPanel88.setLayout(jPanel88Layout);
+    jPanel88Layout.setHorizontalGroup(
+      jPanel88Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel88Layout.createSequentialGroup()
+        .addContainerGap()
+        .addComponent(jLabel76, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(textField91)
+        .addGap(3, 3, 3)
+        .addComponent(playBtn91)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(chooseBtn91)
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(soundKey91, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
+    );
+    jPanel88Layout.setVerticalGroup(
+      jPanel88Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+      .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel88Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+        .addComponent(textField91, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addComponent(chooseBtn91)
+        .addComponent(soundKey91, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addComponent(jLabel76))
+      .addComponent(playBtn91, javax.swing.GroupLayout.Alignment.TRAILING)
+    );
+
     javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
     jPanel6.setLayout(jPanel6Layout);
     jPanel6Layout.setHorizontalGroup(
@@ -2490,6 +2547,7 @@ public class Main extends javax.swing.JFrame {
       .addComponent(jPanel63, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel65, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
       .addComponent(jPanel72, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+      .addComponent(jPanel88, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
     );
     jPanel6Layout.setVerticalGroup(
       jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2504,7 +2562,9 @@ public class Main extends javax.swing.JFrame {
         .addComponent(jPanel59, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
         .addComponent(jPanel63, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        .addContainerGap(661, Short.MAX_VALUE))
+        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+        .addComponent(jPanel88, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        .addContainerGap(630, Short.MAX_VALUE))
     );
 
     tabbedPane.addTab(bundle.getString("tab_bye"), jPanel6); // NOI18N
@@ -4567,6 +4627,14 @@ public class Main extends javax.swing.JFrame {
         player.play(((JTextField) btn.getParent().getComponent(1)).getText());
       }
     }//GEN-LAST:event_playSound
+
+  private void playBtn91playSound(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_playBtn91playSound
+    // TODO add your handling code here:
+  }//GEN-LAST:event_playBtn91playSound
+
+  private void chooseBtn91chooseButtonAction(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chooseBtn91chooseButtonAction
+    // TODO add your handling code here:
+  }//GEN-LAST:event_chooseBtn91chooseButtonAction
 
   public static void main(String args[]) {
     java.awt.EventQueue.invokeLater(new Runnable() {
